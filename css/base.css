@@ -22,6 +22,8 @@ a:active, a:hover { outline: 0; }
 .blue { color: blue; }
 .gray { color: #808080; }
 
+button, input { line-height: normal; outline: none; }
+
 /*通用标签*/
 body { color: #333; background-color: #e8e8e8; line-height: 1.5; }
 .wrap { width: 1200px; margin-left: auto; margin-right: auto; background: #fff; height: auto; }

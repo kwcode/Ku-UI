@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="css/base.css" rel="stylesheet" />
+    <style>
+        .search-content { margin: 20px; }
+        .search-content-box { width: 600px; margin: 0 auto; }
+        .search-ipt-wr { position: relative; float: left; border: solid #c6cede; border-width: 1px 0px 1px 1px; height: 38px; border-image: none; background: #FFF; vertical-align: top; overflow: hidden; }
+        .search-input { width: 465px; float: left; height: 25px; line-height: 25px; margin: 6px 0px 0px 10px; padding: 0px; background: none; border: 0px none; outline: 0px none; font-family: 'Microsoft YaHei'; }
+        .search-btn { display: inline-block; font: 16px arial; margin: 0; zoom: 1; float: left; display: block; width: 90px; background: #55a7e3; color: #fff; font-size: 14px; height: 40px; padding: 0px; border: 0px none; cursor: pointer; }
+        .search-btn:hover { background-color: #2f87c1; }
+
+        .search-clear { background: url(/images/del.png) 7px 12px #fff no-repeat; width: 32px; height: 32px; position: absolute; right: 0; top: 0; }
+        .search-placeholder { font-size: 14px; color: #c0c1c4; position: absolute; left: 13px; margin-top: 10px; letter-spacing: normal; font-weight: normal; z-index: 0; top: 0; font-family: 'Microsoft YaHei'; }
+    </style>
+</head>
+<body>
+    <div class="search-content">
+        <div class="search-content-box">
+            <div class="search-ipt-wr">
+                <input class="search-input" placeholder="" />
+                <a href="javascript:" title="清空" class="search-clear"></a>
+                <b class="search-placeholder">请输入网址</b>
+            </div>
+            <input type="submit" class="search-btn" value="GO" />
+        </div>
+    </div>
+</body>
+</html>

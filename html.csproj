@@ -57,7 +57,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="banner.html" />
     <Content Include="css\base.css" />
+    <Content Include="images\del.png" />
+    <Content Include="images\slider-arrow.png" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.superslide.min.js" />
+    <Content Include="listimg.html" />
     <Content Include="nav.html" />
     <Content Include="search.html" />
     <Content Include="Web.config" />

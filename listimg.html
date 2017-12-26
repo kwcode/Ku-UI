@@ -5,24 +5,109 @@
     <title>常规列表及图片展示效果</title>
     <link href="css/base.css" rel="stylesheet" />
     <style>
-        .cpbox { }
-        .cpbox dl.listimg { }
-        .cpbox dl.listimg { }
+        body { height: 1000px; }
+        .ku-row { margin-bottom: 10px; padding: 10px; margin: 0 auto; }
+        /*盒子一*/
+        .box { border: 1px solid #e5e5e5; clear: both; display: block; margin-top: 20px; overflow: hidden; }
+        .box .boxtitle { background: #fff; border-bottom: 1px solid #e0e0e0; clear: both; color: #000; display: block; height: 38px; line-height: 37px; margin: 0; overflow: hidden; text-indent: 0; text-overflow: ellipsis; white-space: nowrap; word-break: keep-all; font-size: 16px; color: #666; font-weight: normal; padding: 0px; padding-left: 15px; }
+        .box ul li { display: block; height: 32px; line-height: 32px; margin: 0; overflow: hidden; text-indent: 15px; text-overflow: ellipsis; white-space: nowrap; word-break: keep-all; }
+        .box ul li a { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;  word-break: keep-all; ]; }
+         
+        .box-cp { width: 638px; }
+        .box dl.listimg { height: 200px; overflow: hidden; }
+        .box dl.listimg dt { clear: both; font-size: 14px; margin-bottom: 10px; border-bottom: 1px solid #eee; height: 30px; line-height: 30px; text-indent: 10px; }
+        .box dl.listimg dd { width: 133px; margin-left: 20px; height: 160px; float: left; overflow: hidden; border: 0px; }
+        .box dl.listimg dd img { border: 1px solid #ddd; width: 130px; height: 100px; margin-top: 10px; }
+        .box dl.listimg dd p { text-overflow: ellipsis; white-space: nowrap; word-break: keep-all; }
+
+        .box-corp { width: 250px; }
+
+        .box-other { width: 650px; }
+        .box-other .bt-bg { background: url(/images/boxtitle.gif) no-repeat 15px center; }
+        .box-other .boxtitle { padding-left: 30px; }
+        .box-other ul li .time { float: right; }
     </style>
 </head>
 <body>
-    <div>
-        <div class="cpbox">
-            <dl class="listimg">
+    <div class="ku-row">
+        <div class="box box-cp">
+            <dl class="listimg clearfix">
                 <dt>最新产品</dt>
 
                 <dd>
-                    <a href="//xian.11467.com/info/5411011.htm" rel="nofollow">
+                    <a href="#1">
+                        <img alt="" src="//img.11467.com/new/img/upload/2017-12-26/1277067496_small.jpg">
+                        <p>美版IQAIR、霍尼韦尔空气净化器西安专业维修  </p>
+                    </a>
+                </dd>
+
+                <dd>
+                    <a href="#2">
+                        <img alt="" src="//img.11467.com/new/img/upload/2017-12-26/1277067496_small.jpg">
+                        <p>美版IQAIR、霍尼韦尔空气净化器西安专业维修  </p>
+                    </a>
+                </dd>
+
+                <dd>
+                    <a href="#">
+                        <img alt="" src="//img.11467.com/new/img/upload/2017-12-26/1277067496_small.jpg">
+                        <p>美版IQAIR、霍尼韦尔空气净化器西安专业维修  </p>
+                    </a>
+                </dd>
+                <dd>
+                    <a href="#">
+                        <img alt="" src="//img.11467.com/new/img/upload/2017-12-26/1277067496_small.jpg">
+                        <p>美版IQAIR、霍尼韦尔空气净化器西安专业维修  </p>
+                    </a>
+                </dd>
+
+                <dd>
+                    <a href="#">
                         <img alt="" src="//img.11467.com/new/img/upload/2017-12-26/1277067496_small.jpg">
                         <p>美版IQAIR、霍尼韦尔空气净化器西安专业维修  </p>
                     </a>
                 </dd>
             </dl>
+        </div>
+    </div>
+
+    <div class="ku-row">
+        <div class="box box-corp">
+            <h3 class="boxtitle">推荐公司</h3>
+            <ul>
+                <li><a class="#1">北京世纪耐德科技有限公司北京世纪耐德科技有限公司</a></li>
+                <li><a class="#2">北京世纪耐德科技有限公司</a></li>
+                <li><a class="#3">北京世纪耐德科技有限公司</a></li>
+                <li><a class="#1">北京世纪耐德科技有限公司北京世纪耐德科技有限公司</a></li>
+                <li><a class="#1">北京世纪耐德科技有限公司</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="ku-row">
+        <div class="box box-other">
+            <h3 class="boxtitle bt-bg">推荐公司</h3>
+            <ul>
+                <li>
+                    <span class="time">2017-09-20 55:33</span>
+                    <a class="#1">北京世纪耐德科技有限公司北京世纪耐德科技有限公司</a>
+                </li>
+
+                <li>
+                    <span class="time">2017-09-20 55:33</span>
+                    <a class="#2">北京世纪耐德科技有限公司北京世纪耐德科技有限公司</a>
+                </li>
+
+                <li>
+                    <span class="time">2017-09-20 55:33</span>
+                    <a class="#3">北京世纪耐德科技有限公司北京世纪耐德科技有限公司北京世纪耐德科技有限公司北京世纪耐德科技有限公司北京世纪耐德科技有限公司北京世纪耐德科技有限公司北京世纪耐德科技有限公司北京世纪耐德科技有限公司</a>
+                </li>
+
+                <li>
+                    <span class="time">2017-09-20 55:33</span>
+                    <a class="#1">北京世纪耐德科技有限公司北京世纪耐德科技有限公司</a>
+                </li>
+            </ul>
         </div>
     </div>
 </body>

@@ -58,7 +58,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="banner.html" />
+    <Content Include="buttom.html" />
     <Content Include="css\base.css" />
+    <Content Include="footer.html" />
+    <Content Include="friendship.html" />
+    <Content Include="images\boxtitle.gif" />
     <Content Include="images\del.png" />
     <Content Include="images\slider-arrow.png" />
     <Content Include="js\jquery.min.js" />

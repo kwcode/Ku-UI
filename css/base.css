@@ -13,7 +13,8 @@ input, select, textarea { outline: 0; }
 .clear { clear: both; }
 .hide { display: none; }
 .kw-hide { display: none !important; }
-body { margin: 0; padding: 0; }
+
+a { color: #333; text-decoration: none; }
 a:active, a:hover { outline: 0; }
 
 /*常用颜色*/
@@ -25,5 +26,3 @@ a:active, a:hover { outline: 0; }
 button, input { line-height: normal; outline: none; }
 
 /*通用标签*/
-body { color: #333; background-color: #e8e8e8; line-height: 1.5; }
-.wrap { width: 1200px; margin-left: auto; margin-right: auto; background: #fff; height: auto; }

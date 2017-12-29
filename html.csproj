@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="404\a.html" />
     <Content Include="banner.html" />
     <Content Include="buttom.html" />
     <Content Include="css\base.css" />
@@ -67,6 +68,7 @@
     <Content Include="images\slider-arrow.png" />
     <Content Include="js\jquery.min.js" />
     <Content Include="js\jquery.superslide.min.js" />
+    <Content Include="lay.html" />
     <Content Include="listimg.html" />
     <Content Include="nav.html" />
     <Content Include="search.html" />

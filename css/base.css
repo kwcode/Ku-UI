@@ -23,6 +23,8 @@ a:active, a:hover { outline: 0; }
 .blue { color: blue; }
 .gray { color: #808080; }
 
-button, input { line-height: normal; outline: none; }
+button, input { overflow: visible; vertical-align: middle; outline: 0; }
 
 /*通用标签*/
+
+.pt10 { padding-top: 10px; }
